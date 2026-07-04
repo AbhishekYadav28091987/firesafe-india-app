@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FireSafe India — Investor Deck</title>
+<meta name="description" content="FireSafe India — a fire-safety compliance platform that turns paper audits into a live, public readiness signal. Investor brief.">
+<meta property="og:title" content="FireSafe India — Investor Deck">
+<meta property="og:description" content="Know before you enter. A fire-safety compliance platform for every building in India.">
+<meta property="og:image" content="slides/firesafe-slide-01.png">
+<style>
+  :root{
+    --bg:#0E0B0A; --bg2:#14100E; --panel:#1B1512; --hair:#2E2620;
+    --ink:#F6EFE8; --ink2:#C9BCB0; --mute:#8A7B6E;
+    --ember:#EA6238; --ember2:#F2895F; --red:#FF5D4E; --orange:#FFAA3C; --green:#54D66E;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);
+    font-family:ui-sans-serif,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.6}
+  a{color:var(--ember2);text-decoration:none}
+  .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+  .grad{height:3px;border-radius:3px;background:linear-gradient(90deg,var(--red),var(--orange) 52%,var(--green))}
+
+  header.bar{position:sticky;top:0;z-index:10;background:rgba(14,11,10,.82);
+    backdrop-filter:blur(12px);border-bottom:1px solid var(--hair)}
+  .bar .in{max-width:1080px;margin:0 auto;padding:0 20px;height:58px;display:flex;align-items:center;gap:14px}
+  .bar svg{width:24px;height:24px}
+  .bar b{font-weight:800;letter-spacing:-.01em;font-size:16px;white-space:nowrap}
+  .bar .sp{flex:1}
+  .bar a.link{color:var(--ink2);font-size:13.5px;padding:7px 11px;border-radius:9px;white-space:nowrap}
+  .bar a.link:hover{color:var(--ink);background:var(--panel)}
+  .bar a.cta{color:var(--ink);background:linear-gradient(90deg,var(--ember),var(--ember2));
+    font-weight:650;font-size:13.5px;padding:8px 14px;border-radius:10px}
+  @media(max-width:640px){.bar a.link{display:none}}
+
+  .hero{max-width:1080px;margin:0 auto;padding:70px 20px 30px;text-align:center}
+  .hero .eyebrow{font-family:ui-monospace,monospace;text-transform:uppercase;letter-spacing:.22em;
+    font-size:11px;color:var(--ember2);margin-bottom:20px}
+  .hero h1{font-size:clamp(38px,7vw,74px);font-weight:800;letter-spacing:-.03em;line-height:1.02;text-wrap:balance}
+  .hero p{color:var(--ink2);font-size:clamp(16px,2.4vw,20px);max-width:56ch;margin:22px auto 0;line-height:1.55}
+  .hero .grad{width:170px;margin:34px auto 0}
+  .actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:34px}
+  .btn{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;
+    padding:11px 18px;border-radius:11px;border:1px solid var(--hair);color:var(--ink);background:var(--panel)}
+  .btn:hover{border-color:var(--ember)}
+  .btn.primary{background:linear-gradient(90deg,var(--ember),var(--ember2));border:0}
+
+  .deck{max-width:1080px;margin:20px auto 0;padding:20px}
+  .deck .lbl{font-family:ui-monospace,monospace;text-transform:uppercase;letter-spacing:.16em;
+    font-size:11px;color:var(--mute);text-align:center;margin-bottom:22px}
+  figure.slide{margin:0 0 22px;position:relative}
+  figure.slide img{width:100%;display:block;border-radius:14px;border:1px solid var(--hair);
+    box-shadow:0 20px 50px rgba(0,0,0,.5);background:#000}
+  figure.slide .n{position:absolute;top:12px;left:14px;font-family:ui-monospace,monospace;font-size:11px;
+    color:var(--ink2);background:rgba(0,0,0,.5);padding:3px 9px;border-radius:99px;letter-spacing:.1em}
+
+  footer{border-top:1px solid var(--hair);margin-top:30px}
+  footer .in{max-width:1080px;margin:0 auto;padding:34px 20px 60px;display:flex;flex-wrap:wrap;gap:24px;
+    align-items:center;justify-content:space-between;color:var(--mute);font-size:13px}
+  footer .contact{display:flex;gap:26px;flex-wrap:wrap;font-family:ui-monospace,monospace;font-size:13px;color:var(--ink2)}
+  footer .contact span span{color:var(--mute)}
+  a:focus-visible,.btn:focus-visible{outline:2px solid var(--ember);outline-offset:2px}
+</style>
+</head>
+<body>
+<svg style="display:none"><symbol id="flame" viewBox="0 0 24 24"><path fill="#EA6238" d="M12 2c1.7 3.3.4 5.2-1.3 7C9 10.9 8 12.4 8 14.5 8 17.6 10 20 12 20s4-2.4 4-5.5c0-1.2-.4-2.4-1-3.3.2 1.5-.6 2.7-1.6 2.7-1 0-1.6-.9-1.6-2.1 0-2.3 2.1-3.5 2.1-6.2C13.9 4.5 13 3.1 12 2z"/></symbol></svg>
+
+<header class="bar"><div class="in">
+  <svg><use href="#flame"/></svg><b>FireSafe India</b>
+  <span class="sp"></span>
+  <a class="link" href="#deck">Deck</a>
+  <a class="link" href="guide.html">User guide</a>
+  <a class="link" href="https://github.com/AbhishekYadav28091987/firesafe-india-app/releases/latest/download/firesafe-india.apk">Get the app</a>
+  <a class="cta" href="FireSafe-India-Investor-Deck.pdf">Download PDF</a>
+</div></header>
+
+<section class="hero">
+  <div class="eyebrow">Fire-safety compliance · India · Investor Brief</div>
+  <h1>Know before you enter.</h1>
+  <p>A fire-safety compliance platform that turns paper audits into a live, public readiness
+  signal — for every building, in the hands of everyone. Scroll to read the deck.</p>
+  <div class="grad"></div>
+  <div class="actions">
+    <a class="btn primary" href="FireSafe-India-Investor-Deck.pdf">↓ Download the deck (PDF)</a>
+    <a class="btn" href="guide.html">Open the user guide</a>
+    <a class="btn" href="https://github.com/AbhishekYadav28091987/firesafe-india-app/releases/latest">Download the apps</a>
+  </div>
+</section>
+
+<section class="deck" id="deck">
+  <div class="lbl">Investor Deck · 13 slides</div>
+  <figure class="slide"><span class="n">01 / 13</span><img loading="lazy" src="slides/firesafe-slide-01.png" alt="Slide 1"></figure>
+  <figure class="slide"><span class="n">02 / 13</span><img loading="lazy" src="slides/firesafe-slide-02.png" alt="Slide 2"></figure>
+  <figure class="slide"><span class="n">03 / 13</span><img loading="lazy" src="slides/firesafe-slide-03.png" alt="Slide 3"></figure>
+  <figure class="slide"><span class="n">04 / 13</span><img loading="lazy" src="slides/firesafe-slide-04.png" alt="Slide 4"></figure>
+  <figure class="slide"><span class="n">05 / 13</span><img loading="lazy" src="slides/firesafe-slide-05.png" alt="Slide 5"></figure>
+  <figure class="slide"><span class="n">06 / 13</span><img loading="lazy" src="slides/firesafe-slide-06.png" alt="Slide 6"></figure>
+  <figure class="slide"><span class="n">07 / 13</span><img loading="lazy" src="slides/firesafe-slide-07.png" alt="Slide 7"></figure>
+  <figure class="slide"><span class="n">08 / 13</span><img loading="lazy" src="slides/firesafe-slide-08.png" alt="Slide 8"></figure>
+  <figure class="slide"><span class="n">09 / 13</span><img loading="lazy" src="slides/firesafe-slide-09.png" alt="Slide 9"></figure>
+  <figure class="slide"><span class="n">10 / 13</span><img loading="lazy" src="slides/firesafe-slide-10.png" alt="Slide 10"></figure>
+  <figure class="slide"><span class="n">11 / 13</span><img loading="lazy" src="slides/firesafe-slide-11.png" alt="Slide 11"></figure>
+  <figure class="slide"><span class="n">12 / 13</span><img loading="lazy" src="slides/firesafe-slide-12.png" alt="Slide 12"></figure>
+  <figure class="slide"><span class="n">13 / 13</span><img loading="lazy" src="slides/firesafe-slide-13.png" alt="Slide 13"></figure>
+</section>
+
+<footer><div class="in">
+  <span>FireSafe India — make every building legible.</span>
+  <span class="contact">
+    <span><span>web&nbsp;&nbsp;</span>lcayinnovations.com</span>
+    <span><span>email&nbsp;&nbsp;</span>ceo@lcayinnovations.com</span>
+  </span>
+</div></footer>
+</body>
+</html>
